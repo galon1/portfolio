@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css" />
         <div>
           <Navigation />
           <Switch>
