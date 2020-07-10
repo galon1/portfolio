@@ -1,0 +1,62 @@
+@import "index.css";
+
+.page-title {
+    margin-left: 40%
+}
+.project-container {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-wrapper {
+    background-color: #ffffffcc;
+    width: 20vw;
+    height: 45vw; 
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+
+}
+
+.title {
+    margin-top: 2vh;
+    font-family:'Alegreya';
+    font-size: 1.4em;
+    line-height: 0.5em;
+}
+
+.dates-languages {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal !important;
+    line-height: 0.5em;
+}
+
+.pictures {
+    width: 20vw;
+    height: 20vw;
+}
+
+.description {
+    line-height: 1.75em !important;
+}
+
+.buttons {
+    border-color: #795446 !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    margin-right: 1vw;
+    color: #795446 !important;
+}
+
+
+.buttons:hover {
+    border-color: #795446 !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+   color: #795446 !important;
+}
+
+.buttons:active {
+    border-color: #795446 !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    color: #795446 !important;
+}

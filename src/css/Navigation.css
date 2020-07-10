@@ -1,0 +1,47 @@
+@import "index.css";
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.information {
+    margin-top: 2vw;
+    width: 27vw;
+}
+
+.tabs {
+    font-family:'Alegreya';
+    color: #ad7d6a;
+    font-size: 1.5em;
+    text-decoration: none !important;
+    margin-right: 5vw;
+}
+
+.avatar-icon {
+    width: 4vw;
+    height: 4vw;
+    border: 0px !important;
+    color: black !important;
+    top: -1vh;
+}
+
+.avatar-icon:hover{
+    border: 0px !important;
+    color: #ad7d6a !important;
+}
+
+.avatar-icon:focus {
+    border: 0px !important;
+    color: #ad7d6a !important;
+}
+
+.tabs:hover {
+    color: #795446;
+    font-size: 1.75em;
+}
+
+.tabs:focus {
+    color: #795446;
+    font-size: 1.75em;
+}
