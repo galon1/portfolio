@@ -12,7 +12,7 @@
 
 .project-wrapper {
     background-color: #ffffffcc;
-    width: 20vw;
+    width: 30vw;
     height: 45vw; 
     margin-right: 5vw;
     margin-bottom: 5vw;
@@ -33,7 +33,7 @@
 }
 
 .pictures {
-    width: 20vw;
+    width: 30vw;
     height: 20vw;
 }
 
@@ -46,13 +46,14 @@
     font-family: 'Roboto Condensed', sans-serif !important;
     margin-right: 1vw;
     color: #795446 !important;
+    background-color: 0px !important;
 }
 
 
 .buttons:hover {
-    border-color: #795446 !important;
+    border-color: black !important;
     font-family: 'Roboto Condensed', sans-serif !important;
-   color: #795446 !important;
+   color: black !important;
 }
 
 .buttons:active {
