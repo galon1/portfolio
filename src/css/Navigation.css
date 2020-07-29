@@ -1,47 +1,38 @@
-@import "index.css";
+@import "../index.css";
 
 .header-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-top: 5vw;
 }
 
-.information {
-    margin-top: 2vw;
-    width: 27vw;
+.tag-buttons {
+    z-index: 100;
+    width: 14vw;
+    height: 9vh !important;
+    text-align: center;
+    margin-right: 10vw;
+    opacity: .80;
+    font-family:'Alegreya' !important;
+    background-color: olive !important;
+    border-color: olive !important;
+    color: white;
+    font-size: 1.4em !important;
+    margin-right: 10vw;
 }
-
-.tabs {
-    font-family:'Alegreya';
-    color: #ad7d6a;
-    font-size: 1.5em;
-    text-decoration: none !important;
-    margin-right: 5vw;
-}
-
-.avatar-icon {
-    width: 4vw;
-    height: 4vw;
-    border: 0px !important;
+.tag-buttons:hover {
     color: black !important;
-    top: -1vh;
 }
 
-.avatar-icon:hover{
-    border: 0px !important;
-    color: #ad7d6a !important;
+a {
+    color: white !important;
+}
+a:hover {
+    color: black !important;
 }
 
-.avatar-icon:focus {
-    border: 0px !important;
-    color: #ad7d6a !important;
-}
-
-.tabs:hover {
-    color: #795446;
-    font-size: 1.75em;
-}
-
-.tabs:focus {
-    color: #795446;
-    font-size: 1.75em;
+td {
+    font-size: 20px;
+    margin: 5vw;
 }

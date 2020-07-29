@@ -1,4 +1,4 @@
-@import "index.css";
+@import "../index.css";
 
 .page-title {
     margin-left: 40%
@@ -11,12 +11,10 @@
 }
 
 .project-wrapper {
-    background-color: #ffffffcc;
     width: 30vw;
     height: 45vw; 
-    margin-right: 5vw;
-    margin-bottom: 5vw;
-
+    margin-right: 2vw;
+    margin-bottom: 2vw;
 }
 
 .title {
@@ -39,13 +37,14 @@
 
 .description {
     line-height: 1.75em !important;
+    font-size: 18px;
 }
 
 .buttons {
-    border-color: #795446 !important;
+    border-color: olive !important;
     font-family: 'Roboto Condensed', sans-serif !important;
     margin-right: 1vw;
-    color: #795446 !important;
+    color: olive !important;
     background-color: 0px !important;
 }
 

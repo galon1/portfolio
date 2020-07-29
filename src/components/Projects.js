@@ -2,8 +2,10 @@ import React from 'react';
 import '../css/Projects.css';
 import amia_paper from '../uploads/amia_paper.png';
 import strongsuit from '../uploads/strongsuit.png';
+import amitalon from '../uploads/amitalon.png';
 import bcrypt from '../uploads/bcrypt.png';
 import whoosh from '../uploads/whoosh.png';
+import othello from '../uploads/othello.png';
 import { Button } from 'antd';
 
 class Projects extends React.Component {
@@ -22,7 +24,10 @@ class Projects extends React.Component {
                 )
             case "Speech4Children":
                 return (
-                    <Button size="large" className="buttons"> Visit Website</Button>
+                    <>
+                        <Button size="large" className="buttons" onClick={() => window.open('https://amitalon-speech4children.com', '_blank')}> Visit Website</Button>
+                        <Button size="large" className="buttons" onClick={() => window.open('https://https://github.com/galon1/speech4children', '_blank')}> View Code</Button>
+                    </>
                 )
             case "Search Engine":
                 return (
@@ -37,7 +42,7 @@ class Projects extends React.Component {
     render() {
         const projectnames = ["Patient Diagnoses", "StrongSuit.Co", "Speech4Children", "Search Engine", "Dropbox", "Othello"]
         const projectinfo = ["Feb 2018-Aug 2019: Python, SQL, SciKit", "May 2020-Present: React, Redux, Mongo", "July 2020: Javascript, HTML/CSS", "Jun 2019- Aug 2019: Python (Whoosh)", "May 2020: Python (Bcrypt)", "Dec 2018: Java"]
-        const images = [amia_paper, strongsuit, bcrypt, whoosh]
+        const images = [amia_paper, strongsuit, amitalon, whoosh, bcrypt, othello]
         const descriptions = [`First author of a published paper assessing the quality of machine learning classifers in diagnostic support. Organized
             61,532 patients each with 100+ data points using SQL and ran 44 different classifiers with Python using SciKit Learn. Accepted to AMIA summit.`,]
         return (

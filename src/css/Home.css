@@ -1,20 +1,65 @@
-@import "index.css";
+@import "../index.css";
 
-.displayed {
-    max-width: 80%;
-    height:auto;
+.background-image {
+    background-image: url("../uploads/coffee_desk.jpg");
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+.about-text {
+    font-size: 25px;
+    padding-top: 3vh;
+    padding-left: 4vw;
+  padding-right: 4vw;
 }
 
-table.center{
-    margin-right: auto;
-    margin-top: 8vh;
-    margin-bottom: 10vh;
+.name-title {
+    padding-top: 10vh;
+    font-weight: 500px;
+    font-size: 125px;
+    line-height: 1.0em;
 }
 
-td {
-    max-width: 40vw;
+.avatar-size{
+    font-size: 50px !important;
 }
 
-.text {
-    width: 20vw;
+.avatar-icon {
+    margin-left: 2vw;
+    color: black !important;
+    border: 0px !important;
+}
+
+.avatar-icon:hover{
+    border: 0px !important;
+    color: olive !important;
+}
+
+.avatar-icon:focus {
+    border: 0px !important;
+    color: olive !important;
+}
+
+.section-title {
+    font-weight: 500px;
+    font-size: 50px;
+    line-height: 1.0em;
+    padding-left: 3vw;
+}
+
+.back-to-top-buttons{
+    height: 9vh !important;
+    font-family:'Alegreya' !important;
+    background-color: olive !important;
+    border-color: olive !important;
+    color: white;
+    opacity: 0.8;
+    font-size: 1.4em !important;
+    left: 90% ;
+}
+.back-to-top-buttons:hover {
+    color: black !important;
 }
