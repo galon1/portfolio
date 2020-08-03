@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Navigation.css';
 import { Button } from 'antd';
-import PDF from '../uploads/resume.pdf';
+import PDF from '../uploads/Gil_Alon_Resumé.pdf';
 
 class Navigation extends React.Component {
 
