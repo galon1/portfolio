@@ -29,8 +29,8 @@ class Home extends React.Component {
             {/* <Button > SEE ME! </Button> */}
             <p className="about-text"> 
             Hi! My name is Gil Alon and I am currently a junior studying computer science at Brown University.
-                                I am very interested in machine learning and how using that technology to better lives. I am very open to 
-                                most types of development. I need to work in a highly collaborative environment and I llike
+                                I am very interested in machine learning and cybersecurity and how using those technologies can better lives. I am very open to 
+                                most types of development. However, I need to work in a highly collaborative environment and I like
                                 to solve complex problems.</p>
         <Button  type="primary" className="back-to-top-buttons" onClick={()=> document.documentElement.scrollTop = 0}> Back To Top</Button>
                                 <div className="border"></div>
