@@ -14,10 +14,10 @@ class Home extends React.Component {
             <div className="wrapper">
                 <Navigation />
                     <h2 className="name-title">GIL <br />ALON 
-                    <Tooltip title="press to see my github!" color='geekblue'>
+                    <Tooltip title="Press to see my LinkedIn!" color='geekblue'>
                     <Button type="ghost" className="avatar-icon" icon={<LinkedinOutlined className="avatar-size"/>} onClick={() => {  window.open("https://www.linkedin.com/in/gil-alon/", "_blank") }}></Button>
                     </Tooltip>
-        <Tooltip title="press to see my LinkedIn!" color='geekblue'>
+        <Tooltip title="Press to see my GitHub!" color='geekblue'>
          <Button type="ghost" size="large" className="avatar-icon" icon={<GithubOutlined className="avatar-size"/>} onClick={() => { window.open("https://github.com/galon1", "_blank")}}></Button>
          </Tooltip></h2>
          <h2 style={{ fontSize: '55px', }} >Computer Science Student: <br />Brown University </h2>

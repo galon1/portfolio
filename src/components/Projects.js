@@ -44,7 +44,11 @@ class Projects extends React.Component {
         const projectinfo = ["Feb 2018-Aug 2019: Python, SQL, SciKit", "May 2020-Present: React, Redux, Mongo", "July 2020: Javascript, HTML/CSS", "Jun 2019- Aug 2019: Python (Whoosh)", "May 2020: Python (Bcrypt)", "Dec 2018: Java"]
         const images = [amia_paper, strongsuit, amitalon, whoosh, bcrypt, othello]
         const descriptions = [`First author of a published paper assessing the quality of machine learning classifers in diagnostic support. Organized
-            61,532 patients each with 100+ data points using SQL and ran 44 different classifiers with Python using SciKit Learn. Accepted to AMIA summit.`,]
+            61,532 patients each with 100+ data points using SQL and ran 44 different classifiers with Python using SciKit Learn. Accepted to AMIA summit as a poster presentation.`,
+            `Designed and built an automated process for onboarding new members. This process involved creating 2 new web pages which I designed and using 4 APIs (Typeform, Airtable, Google, Zingle) and 2 webhooks (Calendly, Typeform).
+            Additionally, I built features for the website such as individualized member profile pages pulling data from Airtable and organizing the data using UI/UX styling to appear clear and allowing members to bookmark posts and filter posts
+            based on date and favorite status. All the features I built were using React and CSS and involved both coding the client and server projects.`, `I worked with a small business client to build a professional website for her Speech Language Pathologist private clinic.
+            I built the website using React and CSS for design. The website is formatted also for mobile access. Features include a slideshow of images that members can click through or slide through on their own, click through testimonial quotes and an automatic email opening button.`,]
         return (
             <div className="wrapper">
                 <div className="project-container">
