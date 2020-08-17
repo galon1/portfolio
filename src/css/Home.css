@@ -50,6 +50,20 @@
     padding-left: 3vw;
 }
 
+.see-me-button{
+    font-family: 'Alegreya', serif !important;
+    background-color: olive !important;
+    border-color: olive !important;
+    color: white;
+    opacity: 0.8;
+    font-size: 20px !important;
+    height: 8vh !important;
+}
+
+.see-me-button:hover {
+    color: black !important;
+}
+
 .back-to-top-buttons{
     height: 9vh !important;
     font-family: 'Alegreya', serif !important;
@@ -62,4 +76,9 @@
 }
 .back-to-top-buttons:hover {
     color: black !important;
+}
+
+.me-picture{
+    width: 100%;
+    height: auto;
 }
