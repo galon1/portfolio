@@ -58,6 +58,7 @@
     opacity: 0.8;
     font-size: 20px !important;
     height: 8vh !important;
+    margin-top: 1vw !important;
 }
 
 .see-me-button:hover {

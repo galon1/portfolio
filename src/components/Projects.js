@@ -25,13 +25,13 @@ class Projects extends React.Component {
                 )
             case "Portfolio":
                 return (
-                    <Button size="large" className="buttons" onClick={() => window.open('https://https://github.com/galon1/portfolio', '_blank')}> View Code</Button>
+                    <Button size="large" className="buttons" onClick={() => window.open('https://github.com/galon1/portfolio', '_blank')}> View Code</Button>
                     )
             case "Speech4Children":
                 return (
                     <>
                         <Button size="large" className="buttons" onClick={() => window.open('https://amitalon-speech4children.com', '_blank')}> Visit Website</Button>
-                        <Button size="large" className="buttons" onClick={() => window.open('https://https://github.com/galon1/speech4children', '_blank')}> View Code</Button>
+                        <Button size="large" className="buttons" onClick={() => window.open('https://github.com/galon1/speech4children', '_blank')}> View Code</Button>
                     </>
                 )
             case "Search Engine":
