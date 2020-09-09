@@ -19,10 +19,6 @@ class Projects extends React.Component {
                         <Button size="large" className="buttons" onClick={() => window.open('http://brown.edu/Research/AI/files/pubs/amia20b.pdf', '_blank')}> View Publication</Button>
                     </>
                 )
-            case "StrongSuit.Co":
-                return (
-                    <Button size="large" className="buttons"> View Video</Button>
-                )
             case "Portfolio":
                 return (
                     <Button size="large" className="buttons" onClick={() => window.open('https://github.com/galon1/portfolio', '_blank')}> View Code</Button>
@@ -38,7 +34,7 @@ class Projects extends React.Component {
                 return (
                     <Button size="large" className="buttons" onClick={() => window.open('http://brown.edu/Research/AI/files/pubs/trec19b.pdf', '_blank')}> View Publication</Button>
                 )
-            case "Dropbox" || "Othello":
+            case "Dropbox" || "Othello" || "StrongSuit.Co":
                 return null
             default:
                 break;

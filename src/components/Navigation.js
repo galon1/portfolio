@@ -12,7 +12,7 @@ class Navigation extends React.Component {
                     <Button  type="primary" className="tag-buttons"> <a href="#about">ABOUT</a></Button>
                     <Button  type="primary" className="tag-buttons"><a href="#projects" >PROJECTS</a></Button>
                     <Button  type="primary" className="tag-buttons"><a href={PDF} target="_blank" rel="noopener noreferrer">RESUMÉ</a></Button>
-                    <Button  type="primary" className="tag-buttons"><a href="mailto:gil_alon@brown.edu" > CONTACT ME</a></Button>
+                    <Button  type="primary" className="tag-buttons"><a href="mailto:gilscjm@gmail.com" > CONTACT ME</a></Button>
                     </div>
                 
                 </div>
