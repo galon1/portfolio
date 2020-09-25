@@ -1,5 +1,6 @@
 This was a personal project that I built by myself as my portfolio. This website displays my interests, resumé and showcases my projects. 
 
+The website can be found at: https://www.gil-alon.com/
 ## Available Scripts
 
 In the project directory, you can run:
